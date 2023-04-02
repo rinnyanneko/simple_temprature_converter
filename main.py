@@ -1,0 +1,16 @@
+print("Please enter mode: ")
+print("Celsius to Fahrenheit (c2f)")
+print("Fahrenheit to Celsius (f2c)")
+mode = input()
+if mode == "c2f":
+    print("Please enter temperature in Celsius: ")
+    temp = input()
+    temp = int(temp)
+    print (("Temperature in Fahrenheit: "), temp * 1.8 + 32)
+elif mode == "f2c":
+    print ("Please enter temperature in Fahrenheit: ")
+    temp = input()
+    temp = int(temp)
+    print (("Temperature in Celsius: "), (temp - 32) / 1.8)
+print("Press any key to exit")
+input()
